@@ -1,0 +1,29 @@
+Hunter Adam
+CSCI 261 section A
+Agario Simulation
+
+I created an agario simulator that allows the user to move across a screen as a circle.
+While moving across the screen, the user must avoid getting eaten by circles larger than itself.
+If they do get eaten, the game ends. The other part of the goal is to then eat any circle smaller
+than yourself. Once eating a circle, you will grow to be able to eat a different circle. If you
+eat all the circles on the map, you will then find out if you beat the record that has been set on
+that machine.
+
+In order to move, the user can use up, right, left and down arrow keys respectively. In order to move diagonally,
+the user must use Q for upper left, R for upper right, A for lower left and D for lower right.
+The movement is delayed so holding down any of those keys will pause for a short period of time. If I had
+more time, I would want to find a way to get rid of that. I would also find a way to get a stop watch into
+the program instead of using the number of loops. C++ has the ability to use a stopwatch but I did not have the
+time to work out the bugs.
+
+A test case includes the fact that the user cannot move off the screen. None of the sides allow such movement.
+Another test would be that of making sure the high score runs correctly. If you are able to eat 7 circles in 1000
+loops, eating 5 circles in a better time will not help your high score. High score takes the number eaten as a
+precedence instead of time first. If you end up with the same number eaten, the time will take precedence.
+
+I learned how to make a class that is more efficient. Creating and understanding classes were very confusing to me
+but after doing this project, I believe I have a better understanding of how to use classes. Using private
+versus public was also very confusing to me but I now understand the security of having certain data stored
+under the private area. I think my biggest struggle was figuring out how to have a class that created circles
+instead of having the circle creations in my main. It took trying Set 8 for me to really understand what needed
+to be done.
